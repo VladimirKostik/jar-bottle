@@ -1,0 +1,95 @@
+/* Глобальные стили страницы */
+body {
+    margin: 0;
+    padding: 20px;
+    background: linear-gradient(135deg, navy, purple);
+    /* Фиолетово-синий фон */
+    font-family: Tahoma, sans-serif;
+    /* Шрифт Tahoma */
+    color: gold;
+    /* Текст золотой */
+}
+
+/* Центрирование заголовка */
+.title {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+/* Разделение блока на левый и правый */
+.container {
+    display: flex;
+    justify-content: space-between;
+    max-width: 900px;
+    margin: auto;
+}
+
+/* Левый блок */
+.left-panel {
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+/* Правый блок */
+.right-panel {
+    width: 80%;
+    height: 80%;
+    text-align: center;
+}
+
+/* Стиль картинки */
+#jarImage {
+    width: 100%;
+    max-width: 350px;
+}
+
+/* #jarImage {
+    background: transparent;
+    display: block;
+}
+*/
+/* Стили кнопок */
+
+ button {
+    width: 80px;
+    height: 80px;
+    cursor: pointer;
+    background: black;
+    color: gold;
+    border: 1px solid gold;
+/*  border-radius: 50%;
+     превращает квадрат в круг */
+}
+
+.reset-btn {width: 80px;
+    height: 80px;
+    cursor: pointer;
+    background: black;
+    color: gold;
+    border: 1px solid gold;
+    border-radius: 50%;
+    /* превращает квадрат в круг */}
+
+.remove-btn {
+    width: 80px;
+        height: 80px;
+        cursor: pointer;
+        background: black;
+        color: gold;
+        border: 1px solid gold;
+}
+input {
+    padding: 10px;
+    border: 1px solid gold;
+    width: 140px;
+height: 40px;
+}
+
+.input-row {
+    display: flex;
+    gap: 10px;
+    /* расстояние между ними */
+    align-items: center;
+}

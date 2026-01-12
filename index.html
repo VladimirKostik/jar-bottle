@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Копилка</title>
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+
+<body>
+
+    <!-- Верхний заголовок -->
+    <h1 class="title">Мы смогли</h1>
+
+    <!-- Основной контейнер: слева форма, справа картинка банки -->
+    <div class="container">
+
+        <!-- Левый блок -->
+        <div class="left-panel">
+
+        <div class="input-row">
+            <input type="number" id="amountInput" placeholder="Сумма поступления">
+            <button class="remove-btn" id="undoBtn">Отменить</button>
+        </div>
+
+            <!-- Блок показа общей суммы -->
+            <div id="totalDisplay">Общая сумма: 0 Kč</div>
+
+            <!-- Кнопка очистки всего -->
+            <button class="reset-btn" id="resetBtn">Разбить банку</button>
+        </div>
+
+        <!-- Правый блок с картинкой банки -->
+        <div class="right-panel">
+            <img id="jarImage" src="images/1.png" alt="Банка">
+        </div>
+
+    </div>
+
+    <script src="js/app.js"></script>
+</body>
+
+</html>
